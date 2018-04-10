@@ -20,5 +20,14 @@ module ChessCamp2018
 
     config.autoload_paths += Dir["#{config.root}/lib/**/"]  # include all subdirectories
 
-  end
+  
+
+
+    config.middleware.insert_before 0, Rack::Cors do
+      allow do
+        origins '*'
+        resource '*', :headers => :any, :methods => [:get]
+      end
+    end
+end
 end

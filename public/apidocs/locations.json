@@ -8,8 +8,8 @@
       "path": "/locations.json",
       "operations": [
         {
-          "summary": "Fetches all location",
-          "notes": "This lists all the location",
+          "summary": "Fetches all locations",
+          "notes": "This lists all the locations",
           "nickname": "Locations#index",
           "method": "get"
         }
@@ -20,7 +20,7 @@
       "operations": [
         {
           "summary": "Shows one Location",
-          "notes": "This lists details of one Location",
+          "notes": "This lists details of one location",
           "parameters": [
             {
               "paramType": "path",

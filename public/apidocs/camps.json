@@ -8,8 +8,8 @@
       "path": "/camps.json",
       "operations": [
         {
-          "summary": "Fetches all Camp",
-          "notes": "This lists all the camp",
+          "summary": "Fetches all Camps",
+          "notes": "This lists all of the camps",
           "nickname": "Camps#index",
           "method": "get"
         }
@@ -20,7 +20,7 @@
       "operations": [
         {
           "summary": "Shows one Camp",
-          "notes": "This lists details of one Camp",
+          "notes": "This lists details of one camp",
           "parameters": [
             {
               "paramType": "path",

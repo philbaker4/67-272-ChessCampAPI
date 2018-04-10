@@ -8,8 +8,8 @@
       "path": "/instructors.json",
       "operations": [
         {
-          "summary": "Fetches all Instructor",
-          "notes": "This lists all the instructor",
+          "summary": "Fetches all Instructors",
+          "notes": "This lists all the instructors",
           "nickname": "Instructors#index",
           "method": "get"
         }
@@ -20,7 +20,7 @@
       "operations": [
         {
           "summary": "Shows one instructor",
-          "notes": "This lists details of one Instructor",
+          "notes": "This lists details of one instructor",
           "parameters": [
             {
               "paramType": "path",

@@ -3,14 +3,14 @@ class CampsController < ApplicationController
   swagger_controller :camps, "Camp Management"
 
   swagger_api :index do
-    summary "Fetches all Camp"
-    notes "This lists all the camp"
+    summary "Fetches all Camps"
+    notes "This lists all of the camps"
   end
 
   swagger_api :show do
     summary "Shows one Camp"
     param :path, :id, :integer, :required, "Camp ID"
-    notes "This lists details of one Camp"
+    notes "This lists details of one camp"
     response :not_found
   end
 

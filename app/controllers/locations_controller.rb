@@ -3,14 +3,14 @@ class LocationsController < ApplicationController
   swagger_controller :locations, "Location Management"
 
   swagger_api :index do
-    summary "Fetches all location"
-    notes "This lists all the location"
+    summary "Fetches all locations"
+    notes "This lists all the locations"
   end
 
   swagger_api :show do
     summary "Shows one Location"
     param :path, :id, :integer, :required, "Location ID"
-    notes "This lists details of one Location"
+    notes "This lists details of one location"
     response :not_found
   end
 

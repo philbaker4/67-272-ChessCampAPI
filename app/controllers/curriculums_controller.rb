@@ -3,14 +3,14 @@ class CurriculumsController < ApplicationController
   swagger_controller :curriculums, "Curriculum Management"
 
   swagger_api :index do
-    summary "Fetches all Curriculum"
-    notes "This lists all the curriculum"
+    summary "Fetches all Curriculums"
+    notes "This lists all the curriculums"
   end
 
   swagger_api :show do
     summary "Shows one Curriculum"
     param :path, :id, :integer, :required, "Curriculum ID"
-    notes "This lists details of one Curriculum"
+    notes "This lists details of one curriculum"
     response :not_found
   end
 

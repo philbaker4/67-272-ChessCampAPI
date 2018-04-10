@@ -3,14 +3,14 @@ class InstructorsController < ApplicationController
   swagger_controller :instructors, "Instructor Management"
 
   swagger_api :index do
-    summary "Fetches all Instructor"
-    notes "This lists all the instructor"
+    summary "Fetches all Instructors"
+    notes "This lists all the instructors"
   end
 
   swagger_api :show do
     summary "Shows one instructor"
     param :path, :id, :integer, :required, "Instructor ID"
-    notes "This lists details of one Instructor"
+    notes "This lists details of one instructor"
     response :not_found
   end
 
